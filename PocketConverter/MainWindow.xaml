@@ -11,7 +11,7 @@
             <TabItem Header="Lunghezza">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="TabItem">
+            <TabItem Header="Peso">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>
