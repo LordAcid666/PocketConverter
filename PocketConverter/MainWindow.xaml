@@ -15,6 +15,8 @@
                     <TextBox HorizontalAlignment="Left" Margin="198,93,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
                     <TextBox HorizontalAlignment="Left" Margin="198,175,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
                     <Button Content="Converti" HorizontalAlignment="Left" Margin="198,133,0,0" VerticalAlignment="Top" Width="228"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="442,89,0,0" VerticalAlignment="Top" Width="201"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="442,178,0,0" VerticalAlignment="Top" Width="201"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Peso">
