@@ -8,7 +8,7 @@
         Title="Pocket Converter" Height="450" Width="800">
     <Grid>
         <TabControl>
-            <TabItem Header="TabItem">
+            <TabItem Header="Peso">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem Header="TabItem">
