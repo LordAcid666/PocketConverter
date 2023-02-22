@@ -6,5 +6,14 @@
         xmlns:local="clr-namespace:PocketConverter"
         mc:Ignorable="d"
         Title="Pocket Converter" Height="450" Width="800">
-    <Grid/>
+    <Grid>
+        <TabControl>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
 </Window>
