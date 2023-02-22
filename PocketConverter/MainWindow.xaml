@@ -10,8 +10,8 @@
         <TabControl TabStripPlacement="Left" FontSize="16">
             <TabItem Header="Lunghezza">
                 <Grid Background="#FFE5E5E5">
-                    <Label Content="Origine:" HorizontalAlignment="Left" Margin="75,85,0,0" VerticalAlignment="Top"/>
-                    <Label Content="Destinazione:" HorizontalAlignment="Left" Margin="75,167,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="label_Origine" Content="Origine:" HorizontalAlignment="Left" Margin="75,85,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="label_Destinazione" Content="Destinazione:" HorizontalAlignment="Left" Margin="75,167,0,0" VerticalAlignment="Top"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Peso">
