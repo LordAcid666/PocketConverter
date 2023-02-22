@@ -9,7 +9,9 @@
     <Grid>
         <TabControl TabStripPlacement="Left" FontSize="16">
             <TabItem Header="Lunghezza">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Origine:" HorizontalAlignment="Left" Margin="75,85,0,0" VerticalAlignment="Top"/>
+                </Grid>
             </TabItem>
             <TabItem Header="Peso">
                 <Grid Background="#FFE5E5E5"/>
