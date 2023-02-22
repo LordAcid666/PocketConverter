@@ -34,6 +34,9 @@ namespace PocketConverter
         {
             cmb_Origine.SelectedIndex = 1;
             cmb_Destinazione.SelectedIndex = 3;
+
+            txt_Origine.Text = "0";
+            txt_Destinazione.Text = "0";
         }
     }
 }
