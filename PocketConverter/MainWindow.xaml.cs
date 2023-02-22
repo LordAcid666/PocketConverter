@@ -38,5 +38,10 @@ namespace PocketConverter
             txt_Origine.Text = "0";
             txt_Destinazione.Text = "0";
         }
+
+        private void btn_Converti_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
