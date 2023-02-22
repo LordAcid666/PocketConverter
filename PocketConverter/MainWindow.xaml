@@ -14,6 +14,9 @@
             <TabItem Header="Peso">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
+            <TabItem Header="Temperatura">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>
