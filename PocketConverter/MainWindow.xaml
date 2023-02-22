@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Pocket Converter" Height="450" Width="800">
     <Grid>
-        <TabControl TabStripPlacement="Left">
+        <TabControl TabStripPlacement="Left" FontSize="16">
             <TabItem Header="Lunghezza">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
