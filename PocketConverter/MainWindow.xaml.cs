@@ -43,5 +43,10 @@ namespace PocketConverter
         {
 
         }
+
+        private void cmb_Origine_DropDownClosed(object sender, EventArgs e)
+        {
+
+        }
     }
 }
