@@ -22,7 +22,13 @@
                         <ComboBoxItem Content="Decimetro"/>
                         <ComboBoxItem Content="Millimetro"/>
                     </ComboBox>
-                    <ComboBox x:Name="cmb_Destinazione" HorizontalAlignment="Left" Margin="442,178,0,0" VerticalAlignment="Top" Width="201"/>
+                    <ComboBox x:Name="cmb_Destinazione" HorizontalAlignment="Left" Margin="442,178,0,0" VerticalAlignment="Top" Width="201">
+                        <ComboBoxItem Content="Chilometro"/>
+                        <ComboBoxItem Content="Metro"/>
+                        <ComboBoxItem Content="Centimetro"/>
+                        <ComboBoxItem Content="Decimetro"/>
+                        <ComboBoxItem Content="Millimetro"/>
+                    </ComboBox>
                 </Grid>
             </TabItem>
             <TabItem Header="Peso">
