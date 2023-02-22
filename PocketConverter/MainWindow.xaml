@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PocketConverter"
         mc:Ignorable="d"
-        Title="Pocket Converter" Height="450" Width="800">
+        Title="Pocket Converter" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <TabControl TabStripPlacement="Left" FontSize="16">
             <TabItem Header="Lunghezza">
@@ -18,15 +18,15 @@
                     <ComboBox x:Name="cmb_Origine" HorizontalAlignment="Left" Margin="442,89,0,0" VerticalAlignment="Top" Width="201">
                         <ComboBoxItem Content="Chilometro"/>
                         <ComboBoxItem Content="Metro"/>
-                        <ComboBoxItem Content="Centimetro"/>
                         <ComboBoxItem Content="Decimetro"/>
+                        <ComboBoxItem Content="Centimetro"/>
                         <ComboBoxItem Content="Millimetro"/>
                     </ComboBox>
                     <ComboBox x:Name="cmb_Destinazione" HorizontalAlignment="Left" Margin="442,178,0,0" VerticalAlignment="Top" Width="201">
                         <ComboBoxItem Content="Chilometro"/>
                         <ComboBoxItem Content="Metro"/>
-                        <ComboBoxItem Content="Centimetro"/>
                         <ComboBoxItem Content="Decimetro"/>
+                        <ComboBoxItem Content="Centimetro"/>
                         <ComboBoxItem Content="Millimetro"/>
                     </ComboBox>
                 </Grid>

@@ -29,5 +29,11 @@ namespace PocketConverter
         {
 
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            cmb_Origine.SelectedIndex = 1;
+            cmb_Destinazione.SelectedIndex = 3;
+        }
     }
 }
