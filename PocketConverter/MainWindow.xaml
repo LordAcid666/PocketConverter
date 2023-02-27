@@ -9,9 +9,9 @@
     <Grid>
         <TabControl TabStripPlacement="Left" FontSize="16">
             <TabItem Header="Lunghezza">
-                <Grid Background="#FFE5E5E5">
-                    <Label x:Name="label_Origine" Content="Origine:" HorizontalAlignment="Left" Margin="75,85,0,0" VerticalAlignment="Top"/>
-                    <Label x:Name="label_Destinazione" Content="Destinazione:" HorizontalAlignment="Left" Margin="75,167,0,0" VerticalAlignment="Top"/>
+                <Grid Background="#FFE82D2D">
+                    <Label x:Name="label_Origine" Content="Origine:" HorizontalAlignment="Left" Margin="75,85,0,0" VerticalAlignment="Top" Background="#FFEF4242"/>
+                    <Label x:Name="label_Destinazione" Content="Destinazione:" HorizontalAlignment="Left" Margin="75,167,0,0" VerticalAlignment="Top" Background="#FFFF6262"/>
                     <TextBox x:Name="txt_Origine" HorizontalAlignment="Left" Margin="198,93,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
                     <TextBox x:Name="txt_Destinazione" HorizontalAlignment="Left" Margin="198,175,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
                     <Button x:Name="btn_Converti" Content="Converti" HorizontalAlignment="Left" Margin="198,133,0,0" VerticalAlignment="Top" Width="228" Click="btn_Converti_Click"/>
