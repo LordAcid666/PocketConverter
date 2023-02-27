@@ -15,14 +15,14 @@
                     <TextBox x:Name="txt_Origine" HorizontalAlignment="Left" Margin="198,93,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
                     <TextBox x:Name="txt_Destinazione" HorizontalAlignment="Left" Margin="198,175,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
                     <Button x:Name="btn_Converti" Content="Converti" HorizontalAlignment="Left" Margin="198,133,0,0" VerticalAlignment="Top" Width="228" Click="btn_Converti_Click"/>
-                    <ComboBox x:Name="cmb_Origine" HorizontalAlignment="Left" Margin="442,89,0,0" VerticalAlignment="Top" Width="201">
+                    <ComboBox x:Name="cmb_Origine" HorizontalAlignment="Left" Margin="371,87,0,0" VerticalAlignment="Top" Width="201">
                         <ComboBoxItem x:Name="cmbOrigineKm" Content="Chilometro"/>
                         <ComboBoxItem x:Name="cmbOrigineM" Content="Metro"/>
                         <ComboBoxItem x:Name="cmbOrigineDM" Content="Decimetro"/>
                         <ComboBoxItem x:Name="cmbOrigineCm" Content="Centimetro"/>
                         <ComboBoxItem x:Name="cmbOrigineMm" Content="Millimetro"/>
                     </ComboBox>
-                    <ComboBox x:Name="cmb_Destinazione" HorizontalAlignment="Left" Margin="442,178,0,0" VerticalAlignment="Top" Width="201">
+                    <ComboBox x:Name="cmb_Destinazione" HorizontalAlignment="Left" Margin="371,201,0,0" VerticalAlignment="Top" Width="205">
                         <ComboBoxItem x:Name="cmbDestinazioneKm" Content="Chilometro"/>
                         <ComboBoxItem x:Name="cmbDestinazioneM" Content="Metro"/>
                         <ComboBoxItem x:Name="cmbDestinazioneDm" Content="Decimetro"/>
