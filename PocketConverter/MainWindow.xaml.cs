@@ -25,16 +25,12 @@ namespace PocketConverter
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            cmb_Origine.SelectedIndex = 1;
-            cmb_Destinazione.SelectedIndex = 3;
-            //cmbDestinazioneM.IsEnabled = false;
+            cmb_Origine.SelectedIndex = 1; //metro
+            cmb_Destinazione.SelectedIndex = 3; //centimetro
+            cmbDestinazioneM.IsEnabled = false;
 
             txt_Origine.Text = "0";
             txt_Destinazione.Text = "0";
